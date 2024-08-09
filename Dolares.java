@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class horastrabajadas{
+public class dolaresconversion{
 	
 	public static void main(String[] args) {
 		/*Se indica el ingreso de datos por medio de la consola de teclado*/
@@ -9,8 +9,8 @@ public class horastrabajadas{
 		System.out.println("ingrese la cantidad de Quetzales");
 		int quetzal = scan.nextInt();
 		/*Se realiza la conversión de dolares a quetzales*/
-		Double dolares = quetzal / 7.81;
+		Double dolares = quetzal / 7.75;
 		/*se muestra el resultado de la cantidad de dólares a adquirir*/
-		System.out.println("los dólares que se pueden adquirir por " + quetzal + " Quetzales son: " + dolares);
+		System.out.println("los dólares adquiridos por " + quetzal + " Quetzales son: " + dolares);
 	}
 }
